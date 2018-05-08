@@ -1,0 +1,8 @@
+[package]
+name = "artnet"
+version = "0.1.0"
+authors = ["Max Jöhnk <maxjoehnk@gmail.com>"]
+
+[dependencies]
+byteorder = "1.2.2"
+failure = "0.1.1"
