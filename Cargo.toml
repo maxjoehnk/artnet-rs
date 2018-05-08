@@ -2,7 +2,13 @@
 name = "artnet"
 version = "0.1.0"
 authors = ["Max Jöhnk <maxjoehnk@gmail.com>"]
+repository = "https://github.com/maxjoehnk/artnet-rs"
+keywords = ["dmx", "artnet"]
+categories = ["network-programming", "api-bindings", "asynchronous"]
 
 [dependencies]
 byteorder = "1.2.2"
 failure = "0.1.1"
+
+[badges]
+travis-ci = { repository = "maxjoehnk/artnet-rs", branch = "master" }
